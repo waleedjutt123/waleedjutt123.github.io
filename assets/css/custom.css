@@ -1,0 +1,22 @@
+nav.theme-dark {
+    background-color: #570034; /* Header background color */
+}
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+h1 {
+    font-family: 'Playfair Display', serif; /* Cool font style */
+    color: #1a1a2e; /* Initial color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  h1:hover {
+    color: #ffa0a0; /* Color changes on hover */
+  }
+h2 { font-family: 'Lobster', cursive; font-size: 40px; color: #000000; }
+header.theme-dark { background-color: #570034 }
+header.theme-dark h1 span.highlight { color: var(--red-900) }
+header.theme-dark .container-btn a.btn:nth-child(2):link,
+header.theme-dark .container-btn a.btn:nth-child(2):visited { color: var(--white-000) }
+
+header.theme-dark h2 { color: #ffa0a0}
+
+footer.theme-dark   { background-color: #570034}
